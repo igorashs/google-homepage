@@ -62,3 +62,31 @@ main {
 .search-container p a:hover {
   text-decoration: underline;
 }
+
+.nav-list {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.nav-list li {
+  margin: 20px 20px 0px 0px;
+}
+
+.nav-list li input {
+  border: 0;
+  border-radius: 3px;
+  width: 75px;
+  height: 30px;
+  color: white;
+  background-color: rgb(67, 134, 250);
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
